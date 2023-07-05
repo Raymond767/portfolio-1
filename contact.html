@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raymond</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    header,footer{
+      background: radial-gradient(circle, rgb(16, 185, 247) 21%, rgb(73, 96, 251) 31%, rgb(5, 44, 244) 54%) !important;
+    }
+    aside h2{
+      color: whitesmoke !important;
+      text-align: center;
+    }
+    aside{
+      background: rgb(15, 6, 108);
+      background: radial-gradient(circle, rgb(16, 185, 247) 21%, rgb(73, 96, 251) 31%, rgb(5, 44, 244) 54%);
+    }
+    .img{
+      width: 10%;
+      height: auto;
+    }
+    p{
+      text-align: justify;
+    }
+    #logo{
+      width:150px;
+      height: 150px;
+      position: fixed;
+    }
+    nav a{
+      font-size: 20px !important;
+    }
+    aside a{
+      font-size: 40px !important;
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(255, 255, 255) !important;
+      border-radius: 10px;
+    } 
+   .new{
+      display: block !important;
+      flex-direction: column !important;
+    }
+  </style>
+</head>
+<body>
+ <header class="container-fluid text-bg-primary row" style="height: auto;min-height: 150px;">
+  <div class="col-sm-2">
+    <a href="index.html">
+    <img src="logo6.png" alt="Logo" id="logo" class="rounded-circle">
+    </a>
+  </div>
+  <div class="col-sm-4 pt-5">
+    <h1 style="font-size: 55px;">Soh Raymond</h1>
+  </div>
+  <nav class="navbar navbar-expand-sm col-sm-6 p-5 justify-content-end">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a href="index.html" class="nav-link">Acceuil</a></li>
+      <li class="nav-item"><a href="A_propos.html" class="nav-link">A propos</a></li>
+      <li class="nav-item"><a href="Formation.html" class="nav-link">Formation</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>      
+    </ul>
+  </nav>
+ </header>
+ <main class="container-fluid row">
+  <aside class="col-sm-4">
+    <ul class="nav new">
+      <li class="nav-item"><a href="A_propos.html" class="nav-link">A propos</a></li>
+      <p> Je suis TEPE SOH Raymond Lanier en Première année à INSITEC. Actuellement j'effectue un stage à AlShadowsgroup en tant qu'apprentis développeur web. </p>
+      <h2>centre d'intérets</h2>
+        <ul>
+          <li>Football</li>
+          <li>Cinéma</li>
+          <li>Lecture</li>
+          <li>Jeux vidéos</li>
+       </ul>
+      <li class="nav-item"><a href="Formation.html" class="nav-link">Formation</a></li>
+      <div>
+        <p>
+            2018-2019 <br>
+            Yaoundé,Cameroun <br>
+            BEPC <br>
+            Lycée bilingue de Nkoabang nkolafamba
+        </p>
+        <p>
+            2020-2021 <br>
+            Yaoundé,Cameroun <br>
+            Probatoire <br>
+            Lycée bilingue de Nkoabang nkolafamba
+        </p>
+        <p>
+            2021-2022 <br>
+            Yaoundé,Cameroun <br>
+            Baccalaureat <br>
+            Lycée bilingue de Nkoabang nkolafamba
+        </p>
+    </div>
+    <h2>Projets</h2>
+        <ul>
+           <li>Conception d'une calculatrice à l'aide du langage C</li>
+          <li>Conception d'une calculatrice à l'aide du Java</li>
+          <li>Conception d'un site web à l'aide d'un CMS</li>
+        </ul>
+    <h2>Langages de programmation</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C</li>
+        <li>Java</li>
+        <li>Visual basique</li>
+      </ul>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      <h2>Langues</h2>
+         <p style="display: inline-block;">Français </p>
+         <p style="display: inline-block; position: relative;left: 60%;">Anglais</p>  
+      <p>
+        <img src="contact.png" alt="mon contact" class="img">
+        Mon contact: 696461617
+    </p>
+    <p>
+        <img src="email.png" alt="mon adresse e-mail" class="img">
+        E-mail: rsoh767@gmail.com
+    </p>
+    <p>
+        <img src="localisation.png" alt="ma localisation" class="img">
+        Localisation: Nkoabang,Foku
+    </p>
+    </ul>
+  </aside>
+  <article class="col-sm-7">
+    <h1 class="container-fluid p-5 my-5 border rounded text-center">Mon Contact</h1>
+    <hr>
+    <div>
+
+    </div>
+    <div class="container p-5 my-5 text-bg-dark border rounded text-center">
+      <h1>Mon contact</h1>
+      <hr>
+      <p>
+        <img src="contact.png" alt="mon contact" class="img">
+        Mon contact: 696461617
+    </p>
+    <p>
+        <img src="email.png" alt="mon adresse e-mail" class="img">
+        E-mail: rsoh767@gmail.com
+    </p>
+    <p>
+        <img src="localisation.png" alt="ma localisation" class="img">
+        Localisation: Nkoabang,Foku
+    </p>
+    </div>
+  </article>
+ </main>
+ <footer class="container-fluid text-bg-primary row text-center p-5">
+  <h1>AlShadows Technologie</h1>
+ </footer> 
+</body>
+</html>
